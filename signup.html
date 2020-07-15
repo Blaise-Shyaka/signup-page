@@ -8,6 +8,7 @@
     <script src="https://kit.fontawesome.com/e53eea7683.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    
     <main>
         <!-- Main contains the signin, the icons, and the form -->
         <header>
@@ -18,19 +19,22 @@
                 <a href="#">I forgot my User ID or Password</a>
             </div>
             <!-- The end of the reset account div-->
-            <a href="#">
-                <i class="fas fa-lock"></i>
-                <span>Sign In</span>
-            </a>
+            <button id="signin-button" type="submit"> 
+                <i class="fas fa-lock"></i> Sign In
+            </button>
+        
         </header>
         <!-- The end of the header-->
 
-        <div>
+        <div class="Icons-form-c">
             <!-- This contains the icons and the form -->
-            <div>
-                <!--This div will contain icons -->
-                <img src="./imgs/logo-intuit.png" alt="">
-                <div>
+            <div class="icons">
+                <!--This div will contain all 4 icons -->
+                <div id="intuit-icon">
+                    <!--This div will contain INTUIT icon -->
+                    <img src="./imgs/logo-intuit.png" alt="">
+                </div>
+                <div class="customize-icons">
                     <!-- This div will contain three circular logos -->
                     <a href="#"><img src="./imgs/mint.png" alt="">mint</a>
                     <a href="#"><img src="./imgs/logo-quickbooks.png" alt="">quickbooks</a>
@@ -38,27 +42,46 @@
                 </div>
             </div>
             <!-- The end of icons div -->
-            <form action="">
-                <h2>Create an Intuit account</h2>
-                <p>One account for everything Intuit, including Mint. <span><a href="#">learn more</a></span></p>
+            <div>
+                <!--a huge container -> (h2,p)/form/ last(p)-->
+                <div class="center-content">
+                    <!-- div contains h2 and p tags-->
+                    <h2>Create an Intuit account</h2>
+                    <p>One account for everything Intuit, including Mint. <span><a href="#">learn more</a></span></p>
+                </div>
+                <!--end of (h2,p) div-->
 
-                <label for="">Email address</label><br>
-                <input type="text"><br><br>
-                <label for=""> Phone <span>(recommended)</span></label><br>
-                <input type="tel"><br><br>
-                <label for="">Password</label><br>
-                <input type="password"><br><br>
-                <button type="submit"><i class="fas fa-lock"></i>Create Account</button>
+                <!--start of the form-->
+                <form action="">
+                    <label for="">Email address</label><br>
+                    <input type="text"><br><br>
+                    <label for=""> Phone <span>(recommended)</span></label><br>
+                    <input type="tel"><br><br>
+                    <label for="">Password</label><br>
+                    <input type="password"><br><br>
+                    <button type="submit"><i class="fas fa-lock"></i>Create Account</button>
+                </form>
+                <!--end of form-->
 
-                <p>By clicking Create account, you agree to our
-<span><a href="#">Terms</a></span> and have read and acknowledge our <span><a href="#">Privacy Statement</a></span>.</p>
-            </form>
+                <div>
+                    <!--start of last (p)-->
+                    <p>By clicking Create account, you agree to our
+                        <span><a href="#">Terms</a></span> and have read and acknowledge our <span><a href="#">Privacy Statement</a></span>.</p>
+
+                </div>
+                <!--end of last (p)-->
+
+            </div>
+                <!--end of the huge container -->
+            
             <div>
                 <!-- This div will contain the recaptcha -->
                 <p><span>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a></span> and <span><a href="#">Terms of use</a></span>.</p>
             </div>
             <!-- The end of recaptcha -->
         </div>
+
+        
     </main>
     <!-- The end of the main -->
 
