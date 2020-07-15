@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500&display=swap');
+
 @font-face {
   font-family: 'Avenir Next LT Pro';
   src:
@@ -11,18 +13,20 @@
 
 body {
   background-color: rgb(236, 238, 241);
+  font-family: 'Roboto', sans-serif;
 }
 
 main {
   margin: 0 auto;
-  border: 1px solid black;
+  margin-top: 2px;
+
+  /* border: 1px solid black; */
 }
 
 header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  border: 1px solid orange;
 }
 
 .reset-account {
@@ -42,13 +46,12 @@ header {
   font-size: 12px;
 }
 
-#signin-button {
+#signin-button,
+#create-account {
   border: 1px solid rgb(59, 59, 59);
   border-radius: 5px;
   background-color: rgb(12, 97, 184);
   color: rgb(255, 255, 255);
-
-  /* padding: 70px; */
   margin-right: 35px;
   margin-top: -2px;
   width: 110px;
@@ -59,25 +62,33 @@ header {
   margin-right: 2px;
 }
 
+.Icons-form-c {
+  margin-top: 45px;
+}
+
 .icons {
-  border: 2px solid yellow;
   margin: 0 auto;
   width: 40%;
 }
 
 #intuit-icon {
-  border: 1px solid red;
   margin: 0 auto;
   width: 50%;
   text-align: center;
 }
 
 .customize-icons {
-  border: 1px solid black;
   display: flex;
   justify-content: space-evenly;
-  width: 80%;
+  width: 55%;
   margin: 0 auto;
+}
+
+.customize-icons img {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-right: 4px;
 }
 
 .company-logo {
@@ -85,17 +96,19 @@ header {
   align-items: center;
 }
 
-.customize-icons img {
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
+.company-logo p {
+  color: rgb(89, 90, 96);
 }
 
 /* start styling the form */
 .form-container {
   background-color: #fff;
-  width: 30%;
-  margin: 0 auto;
+  width: 28%;
+  margin: 5px auto;
+  color: rgb(59, 59, 59);
+  padding-top: 15px;
+  min-height: 600px;
+  border: 1px solid rgb(187, 187, 187);
 }
 
 .center-content {
@@ -104,8 +117,51 @@ header {
   text-align: center;
 }
 
+.center-content h2 {
+  font-weight: 500;
+}
+
+.center-content p {
+  font-size: 14px;
+}
+
+.center-content a {
+  text-decoration: none;
+}
+
 form {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
-  background-color: greenyellow;
+}
+
+input {
+  margin-top: 10px;
+  width: 93%;
+  font-size: 14px;
+  padding: 8px;
+  outline: none;
+  border: 1px solid rgb(187, 187, 187);
+}
+
+#create-account {
+  width: 100%;
+  font-size: 16px;
+  margin-top: 12px;
+}
+
+#create-account i {
+  margin-right: 8px;
+}
+
+.terms-privacy {
+  text-align: center;
+  font-style: italic;
+  font-size: 14px;
+  width: 80%;
+  margin: 50px auto;
+  color: rgb(117, 117, 117);
+}
+
+.terms-privacy a {
+  text-decoration: none;
 }
