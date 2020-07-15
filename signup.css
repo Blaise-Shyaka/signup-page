@@ -1,134 +1,111 @@
 @font-face {
-    font-family: 'Avenir Next LT Pro';
-    src: url('AvenirNextLTPro-Regular.woff2') format('woff2'),
-        url('AvenirNextLTPro-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Avenir Next LT Pro';
+  src:
+    url('AvenirNextLTPro-Regular.woff2') format('woff2'),
+    url('AvenirNextLTPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+  /* font-display: swap; */
 }
 
-body{
-    background-color: rgb(236, 238, 241);
+body {
+  background-color: rgb(236, 238, 241);
 }
 
-main{
-    margin: 0 auto;
-    border: 1px solid black;
+main {
+  margin: 0 auto;
+  border: 1px solid black;
 }
 
-header{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    border:1px solid orange;
-    
-}
-.reset-account{
-    margin-right: 20px;
-}
-.reset-account p{
-    
-    color:rgb(80, 80, 80);
-    font-size: 12px;
-    margin-bottom: 2px;
-    margin-top: 1px;
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1px solid orange;
 }
 
-.reset-account a{
-    text-decoration: none;
-    color: rgb(0, 119, 197);
-    font-size: 12px;
+.reset-account {
+  margin-right: 20px;
 }
-#signin-button{
-    border: 1px solid rgb(59, 59, 59);
-    border-radius: 5px;
-    background-color: rgb(12, 97, 184);
-    color: rgb(255, 255, 255);
-   /*padding: 70px;*/
-    margin-right: 35px;
-    margin-top: -2px;
-    width: 110px;
-    height: 40px;;
+
+.reset-account p {
+  color: rgb(80, 80, 80);
+  font-size: 12px;
+  margin-bottom: 2px;
+  margin-top: 1px;
+}
+
+.reset-account a {
+  text-decoration: none;
+  color: rgb(0, 119, 197);
+  font-size: 12px;
+}
+
+#signin-button {
+  border: 1px solid rgb(59, 59, 59);
+  border-radius: 5px;
+  background-color: rgb(12, 97, 184);
+  color: rgb(255, 255, 255);
+
+  /* padding: 70px; */
+  margin-right: 35px;
+  margin-top: -2px;
+  width: 110px;
+  height: 40px;
 }
 
 #signin-button i {
-    margin-right: 2px;
+  margin-right: 2px;
 }
 
-.Icons-form-c{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: auto;
-    border: chartreuse;
-}
-.icons{
-    border: 2px solid yellow;
-    width: 40%;
+.icons {
+  border: 2px solid yellow;
+  margin: 0 auto;
+  width: 40%;
 }
 
-#intuit-icon{
-    border: 1px solid red;
-    margin: 0 auto;
-    width: 50%;
-    text-align: center;
+#intuit-icon {
+  border: 1px solid red;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
 }
 
-.customize-icons{
-    border: 1px solid black;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 80%;
-
-
+.customize-icons {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 0 auto;
 }
 
-.customize-icons img{
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    
+.company-logo {
+  display: flex;
+  align-items: center;
 }
 
-
-.acircular-logo{
-    border: 1px solid brown;
+.customize-icons img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
 
-/* start styling the form*/
-.formContainer{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    border: 5px solid brown;
-    width: 90%;
-}
-form{
-    width:35%;
-    background-color: rgb(255, 255, 255);
-    border:  1px solid green;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    
-    /*translate: (-200px);*/
-
+/* start styling the form */
+.form-container {
+  background-color: #fff;
+  width: 30%;
+  margin: 0 auto;
 }
 
-.formHeader{
-    border: 1px solid red;
-    text-align: center;
-     transform: translate(200px);
+.center-content {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
 }
 
-label{
-   /* transform: translate(-200px);*/
+form {
+  width: 90%;
+  margin: 0 auto;
+  background-color: greenyellow;
 }
-
-
-
-/* end styling the form*/
-
-
