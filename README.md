@@ -10,7 +10,7 @@ We have built the clone of the intuit sign up page
 
 ## Live Demo  
 
-https://raw.githack.com/Blaise-Shyaka/signup-page/signup-form/signup.html
+[You can find the project live here](https://raw.githack.com/Blaise-Shyaka/signup-page/signup-form/signup.html)
 
 ## Authors  
 👤 Author1  

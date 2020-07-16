@@ -39,8 +39,9 @@ header {
   border-radius: 5px;
   background-color: rgb(12, 97, 184);
   color: rgb(255, 255, 255);
-  margin-right: 35px;
-  margin-top: -2px;
+  /*margin-right: 35px;
+  margin-top: -2px;*/
+  margin: 35px -2px;
   width: 123px;
   height: 40px;
   cursor: pointer;
