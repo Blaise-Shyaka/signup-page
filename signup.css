@@ -48,14 +48,15 @@ header {
 
 #signin-button,
 #create-account {
-  border: 1px solid rgb(59, 59, 59);
+  border: none;
   border-radius: 5px;
   background-color: rgb(12, 97, 184);
   color: rgb(255, 255, 255);
   margin-right: 35px;
   margin-top: -2px;
-  width: 110px;
+  width: 123px;
   height: 40px;
+  cursor: pointer;
 }
 
 #signin-button i {
@@ -82,6 +83,10 @@ header {
   justify-content: space-evenly;
   width: 55%;
   margin: 0 auto;
+}
+
+.customize-icons a{
+  text-decoration: none;
 }
 
 .customize-icons img {
@@ -118,7 +123,8 @@ header {
 }
 
 .center-content h2 {
-  font-weight: 500;
+  font-weight: 300;
+  color: rgb(134, 134, 134);
 }
 
 .center-content p {
@@ -127,11 +133,16 @@ header {
 
 .center-content a {
   text-decoration: none;
+  color: rgb(35, 112, 191);
 }
 
 form {
   width: 80%;
   margin: 0 auto;
+}
+
+label{
+  color: rgb(132, 132, 132);
 }
 
 input {
@@ -141,6 +152,13 @@ input {
   padding: 8px;
   outline: none;
   border: 1px solid rgb(187, 187, 187);
+  border-radius: 3px;
+}
+
+form span{
+  color: #444444;
+  font-size: 10px;
+  margin-top: -5px;
 }
 
 #create-account {
@@ -158,10 +176,64 @@ input {
   font-style: italic;
   font-size: 14px;
   width: 80%;
-  margin: 50px auto;
+  margin: 40px auto;
   color: rgb(117, 117, 117);
 }
 
 .terms-privacy a {
   text-decoration: none;
+}
+
+/*style recaptcha*/
+.recaptcha{
+  height: 40px;
+  background-color: rgb(231, 234, 237);
+  font-size: 10px;
+  color: #8d9096;
+  text-align: center;
+  padding-top: 20px;
+}
+.recaptcha a{
+  text-decoration: none;
+  color: rgb(55, 124, 194);
+}
+
+.footer-content{
+  padding-top: 20px;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-content a{
+  text-decoration: none;
+  font-size: 12px;
+  color: #505050;
+  margin-left: 10px;
+}
+
+.footer-content a:hover{
+  text-decoration: underline;
+}
+
+.footer-content p{
+  /*width: 50%;*/
+  text-align: center;
+  color: #505050;
+  font-size:12px;
+  margin-top: -1px;
+}
+
+#privacy-setting-button{
+  width: auto;
+  height: 40px;
+  border: 1px solid rgb(88,89, 95);
+  background-color: rgb(88,89,95);
+  color:rgb(242, 242, 242);
+  border-radius: 4px;
+  position: sticky;
+  bottom: 0;
+  left:87%;
+  cursor: pointer;
+  outline: none;
 }

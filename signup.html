@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/e53eea7683.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+
     <main>
         <!-- Main contains the signin, the icons, and the form -->
         <header>
@@ -19,10 +19,10 @@
                 <a href="#">I forgot my User ID or Password</a>
             </div>
             <!-- The end of the reset account div-->
-            <button id="signin-button" type="submit"> 
+            <button id="signin-button" type="submit">
                 <i class="fas fa-lock"></i> Sign In
             </button>
-        
+
         </header>
         <!-- The end of the header-->
 
@@ -30,24 +30,24 @@
             <!-- This contains the icons and the form -->
             <div class="icons">
                 <!--This div will contain all 4 icons -->
-                <div id="intuit-icon">
+              <a href="https://accounts.intuit.com/signup.html" target="_blank">  <div id="intuit-icon">
                     <!--This div will contain INTUIT icon -->
                     <img src="./imgs/logo-intuit.png" alt="">
-                </div>
+                </div> </a>
                 <div class="customize-icons">
                     <!-- This div will contain three circular logos -->
-                    <div class="company-logo">
+                  <a href="https://mint.com" target="_blank">  <div class="company-logo">
                         <img src="./imgs/mint.png" alt="">
                         <p>Mint</p>
-                    </div>
-                    <div class="company-logo">
+                    </div> </a>
+                  <a target ="_blank" href="http://quickbooks.intuit.com">  <div class="company-logo">
                         <img src="./imgs/logo-quickbooks.png" alt="">
                         <p>quickbooks</p>
-                    </div>
-                    <div class="company-logo">
+                    </div></a>
+                    <a target="_blank" href="http://turbotax.intuit.com"><div class="company-logo">
                         <img src="./imgs/turbotax.png" alt="">
                         <p>turbotax</p>
-                    </div>
+                    </div></a>
                 </div>
             </div>
             <!-- The end of icons div -->
@@ -64,8 +64,12 @@
                 <form action="">
                     <label for="">Email address</label><br>
                     <input type="text"><br><br>
-                    <label for=""> Phone <span>(recommended)</span></label><br>
-                    <input type="tel"><br><br>
+                    <label for=""> Phone (recommended)</label><br>
+                    <input type="tel">
+                    <span>
+                      Standard call, messaging or data rates may apply.
+                    </span>
+                    <br><br>
                     <label for="">Password</label><br>
                     <input type="password"><br><br>
                     <button id="create-account" type="submit"><i class="fas fa-lock"></i>Create Account</button>
@@ -79,24 +83,25 @@
 
                 </div>
                 <!--end of last (p)-->
+                <div class="recaptcha">
+                    <!-- This div will contain the recaptcha -->
+                    <p><span>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a></span> and <span><a href="#">Terms of use</a></span>.</p>
+                </div>
+                <!-- The end of recaptcha -->
             </div>
                 <!--end of the huge container -->
-            
-            <div>
-                <!-- This div will contain the recaptcha -->
-                <p><span>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a></span> and <span><a href="#">Terms of use</a></span>.</p>
-            </div>
-            <!-- The end of recaptcha -->
+
+
         </div>
 
-        
+
     </main>
     <!-- The end of the main -->
 
     <footer>
         <div class="footer-content">
             <!-- This div contains the links and the p tag-->
-            <div>
+            <div class="footer-links">
                 <!-- This div will contain the links -->
                 <a href="">Legal</a>
                 <a href="">Privacy</a>
@@ -105,7 +110,7 @@
             <p> &copy; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
                 Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
         </div>
-        <button>Privacy Settings</button>
     </footer>
+      <button id="privacy-setting-button">Privacy Settings</button>
 </body>
 </html>
